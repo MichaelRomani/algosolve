@@ -1,12 +1,13 @@
 require('dotenv').config()
 const Sequelize = require('sequelize')
 const db = new Sequelize({
-  host: 'capstone.cjxkwcrckygx.us-east-1.rds.amazonaws.com',
-  username: 'testName',
-  password: 'testName',
+  host: 'NAN',
+  username: 'NAN',
+  password: 'NAN'
+  ,
   port: 5432,
   dialect: 'postgres',
-  database: 'capstone',
+  database: 'NAN',
   dialectOptions: {
     ssl: 'Amazon RDS'
   },
