@@ -5,7 +5,7 @@ const db = new Sequelize({
   username: process.env.DB_USER,
   password: process.env.DB_PASS,
   port: process.env.DB_PORT,
-  dialect: process.env.DB_DIALECT,
+  dialect: 'postgres',
   database: process.env.DB_DATABASE,
   dialectOptions: {
     ssl: 'Amazon RDS'
